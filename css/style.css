@@ -3,6 +3,8 @@
     --indigo: #3F51B5;
     --white: #FFFFFF;
     --amber: #FFC107;
+    --blueGrey: #607D8B;
+    --bgColor: #F6F8FF;
 }
 
 header {
@@ -41,4 +43,36 @@ header .nav-part {
     display: flex;
     gap: 40px;
     align-items: center;
+}
+
+/* Geçici Alan */
+section {
+    text-align: center;
+    height: 200px;
+    padding: 10px;
+    background-color: var(--bgColor);
+    margin: 20px;
+    border: 2px solid var(--amber);
+    border-radius: 20px;
+}
+
+/* Alt Başlık */
+footer .container {
+    background-color: var(--blueGrey);
+    height: 60px;
+    padding: 20px 40px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .container .info-text {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+footer .container .social-buttons {
+    display: flex;
+    gap: 30px;
 }
