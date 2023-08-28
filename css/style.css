@@ -9,8 +9,9 @@
 }
 
 header {
-    background-color: var(--indigo);
+    width: 100%;
     height: 90px;
+    background-color: var(--indigo);
 }
 
 header .container {
@@ -53,8 +54,8 @@ section {
 }
 
 .info, .projects, .education, .contact {
-    padding: 10px;
     width: 90%;
+    padding: 10px;
     margin: 20px auto;
     background-color: var(--bgColor);
     border-radius: 20px;
