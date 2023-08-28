@@ -53,50 +53,133 @@
         <!-- İçerikler -->
         <div class="contents">
             <section class="info" id="info_section">
-                <p>Hakkımda</p>
+                <div class="section-container">
+                    <div class="section-title">
+                        <p>Hakkımda</p>
+                    </div>
+                    <div class="container">
+                        <p>Merhabalar, ben Abdullah AYDOĞAN. 25 yaşındayım, İstanbul'da yaşıyorum. Marmara Üniversitesi Bilgisayar Programcılığı ve Anadolu Üniversitesi Yönetim Bilişim Sistemleri bölümlerinden mezun oldum. Front-end web geliştirme ve Android uygulama geliştirme alanlarında kendimi geliştirmeye çalışıyorum.</p>
+                        <img src="images/my_photo.jpg" alt="my_photo">
+                    </div>
+                </div>
             </section>
     
             <section class="projects" id="project_section">
-                <p>Projelerim</p>
-                <div class="box-container">
-                    <div class="box">
-                        <p>Duvar Kağıtları</p>
+                <div class="section-container">
+                    <div class="section-title">
+                        <p>Projelerim</p>
                     </div>
-                    <div class="box">
-                        <p>QR Kod Oluşturucu</p>
-                    </div>
-                    <div class="box">
-                        <p>Sayı Tahmin Oyunu</p>
+                    <div class="box-container">
+                        <div class="box">
+                            <div class="box-content">
+                                <img src="images/wallpaper.png" alt="wallpaper-app">
+                                <p>Duvar Kağıtları</p>
+                                <p>Firebase veritabanından gelen fotoğraflar ile telefon ana ekranına ve kilit ekranına duvar kağıdı ekleme</p>
+                                <a href="https://github.com/abdullah-aydogan/wallpaper-app" target="_blank">Proje Kodları</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <img src="images/qr_code.png" alt="qr_code">
+                                <p>QR Kod Oluşturucu</p>
+                                <p>HTML, CSS ve Javascript kullanılarak yazılan QR kod oluşturma uygulaması</p>
+                                <a href="https://github.com/abdullah-aydogan/QR-Code-Generator" target="_blank">Proje Kodları</a>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-content">
+                                <img src="images/numbers.png" alt="numbers">
+                                <p>Sayı Tahmin Oyunu</p>
+                                <p>Flutter sayı tahmin oyunu</p>
+                                <a href="https://github.com/abdullah-aydogan/sayi_tahmin_oyunu" target="_blank">Proje Kodları</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
     
             <section class="education" id="edu_section">
-                <p>Eğitim Geçmişim</p>
+                <div class="section-container">
+                    <div class="section-title">
+                        <p>Eğitim Geçmişim</p>
+                    </div>
+                </div>
                 <div class="box-container">
                     <div class="box">
-                        <p>1. Box</p>
+                        <div class="box-content">
+                            <img src="images/marmara.png" alt="marmara">
+                            <p>Marmara Üniversitesi</p>
+                            <p>Bilgisayar Programcılığı</p>
+                        </div>
                     </div>
                     <div class="box">
-                        <p>2. Box</p>
+                        <div class="box-content">
+                            <img src="images/uni_2.jpg" alt="uni_2" style="width: auto; height: auto;">
+                        </div>
                     </div>
                     <div class="box">
-                        <p>3. Box</p>
+                        <div class="box-content">
+                            <img src="images/uni_1.jpg" alt="uni_1" style="width: auto; height: auto;">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="box-content">
+                            <img src="images/anadolu.png" alt="anadolu">
+                            <p>Anadolu Üniversitesi</p>
+                            <p>Yönetim Bilişim Sistemleri</p>
+                         </div>
                     </div>
                     <div class="box">
-                        <p>4. Box</p>
+                        <div class="box-content">
+                            <img src="images/uni_3.jpg" alt="uni_3" style="width: auto; height: auto;">
+                        </div>
                     </div>
                     <div class="box">
-                        <p>5. Box</p>
-                    </div>
-                    <div class="box">
-                        <p>6. Box</p>
+                        <div class="box-content">
+                            <img src="images/uni_4.jpg" alt="uni_4" style="width: auto; height: auto;">
+                        </div>
                     </div>
                 </div>
             </section>
     
             <section class="contact" id="contact_section">
-                <p>İletişim Formu</p>
+                <div class="section-container">
+                    <div class="section-title">
+                        <p>İletişim Formu</p>
+                    </div>
+                    <div class="form-area">
+                        <form action="">
+                            <table>
+                                <tr>
+                                    <td><label>Ad</label></td>
+                                    <td><input type="text" required placeholder="Ad giriniz..."></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Soyad</label></td>
+                                    <td><input type="text" required placeholder="Soyad giriniz..."></td>
+                                </tr>
+                                <tr>
+                                    <td><label>e-Posta</label></td>
+                                    <td><input type="email" required placeholder="e-Posta giriniz..."></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Telefon</label></td>
+                                    <td><input type="tel" placeholder="Telefon giriniz..."></td>
+                                </tr>
+                                <tr>
+                                    <td><label>Mesaj</label></td>
+                                    <td><textarea cols="24" rows="3" style="resize: none;" required placeholder="Mesaj yazınız..."></textarea></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><button>Gönder</button></td>
+                                </tr>
+                            </table>                            
+                        </form>
+                    </div>
+                </div>
             </section>
         </div>
         
