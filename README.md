@@ -7,9 +7,9 @@ Projede Google Fonts sitesinden "Noto Sans" yazı fontu kullanıldı.
 Projedeki ikonlar ise Font Awesome sitesinden alındı.
 
 
-## Gerekli <link> Elementleri 
+## Gerekli "<link>" Elementleri 
 
-Yazı fontu ve ikonların çalışır durumda olabilmesi için aşağıdaki <link> elementlerini ekleyin.
+Yazı fontu ve ikonların çalışır durumda olabilmesi için aşağıdaki "<link>" elementlerini ekleyin.
 
 Yazı fontu için:
 
