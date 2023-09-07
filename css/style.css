@@ -64,27 +64,24 @@ section {
 }
 
 .info img {
-    border-radius: 100%;
     border: 1px solid var(--amber);
-    width: 200px;
-    height: 200px;
+    width: 180px;
 }
 
 .info .container p {
-    width: 40%;
-    text-align: justify;
+    width: 50%;
     color: rgb(88, 88, 88);
 }
 
 .info .container {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 30px;
 }
 
 .education img {
-    width: 80px;
-    height: 80px;
+    width: 50%;
 }
 
 section .section-container {
@@ -124,7 +121,7 @@ section .box-container {
 .box .box-content {
     display: flex;
     height: 380px;
-    width: 200px;
+    width: 240px;
     padding: 10px;
     background-color: var(--amber);
     margin-top: 30px;
@@ -146,9 +143,12 @@ section .box-container {
 }
 
 .contact .form-area {
+    margin-top: 20px;
+}
+
+.contact form {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
 }
 
 .contact input, .contact textarea {
@@ -199,6 +199,12 @@ footer .container .social-buttons {
     }
 }
 
+@media (width < 921px) {
+    .box .box-content {
+        width: 200px;
+    }
+}
+
 @media (width < 781px) {
     header .container a, footer .container .info-text, .info .container p {
         font-size: 14px;
@@ -207,15 +213,27 @@ footer .container .social-buttons {
     .box .box-content {
         width: 180px;
     }
+
+    .info .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .info .container p {
+        width: 80%;
+    }
 }
 
 @media (width < 721px) {
-    .box .box-content {
-        width: 170px;
+    header .container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
     }
 
-    .title-link {
-        display: none;
+    .box .box-content {
+        width: 170px;
     }
 }
 
@@ -232,6 +250,16 @@ footer .container .social-buttons {
         height: 300px;
         margin: 10px auto;
     }
+
+    .education img {
+        width: 40%;
+    }
+}
+
+@media (width < 601px) {
+    header .nav-part {
+        gap: 20px;
+    }
 }
 
 @media (width < 551px) {
@@ -242,12 +270,17 @@ footer .container .social-buttons {
         align-items: center;
     }
 
-    .box .box-content {
-        width: 360px;
-        margin: 10px auto;
+    footer .container .info-text {
+        display: none;
+    }
+}
+
+@media (width < 396px) {
+    label {
+        font-size: 14px;
     }
 
-    .title-link, footer .container .info-text {
-        display: none;
+    input, textarea {
+        width: 100%;
     }
 }
